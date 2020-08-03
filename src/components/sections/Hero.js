@@ -61,11 +61,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Playlists para o seu <span className="text-color-primary">público</span>
+            Sua marca através da <span className="text-color-primary">música</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              Obtenha melhores resultados criando experiências musicais em seus pontos de venda. Com Branding Music, sua marca fica mais próxima do cliente usando playlists musicais. 
               </p>
             </div>
           </div>
