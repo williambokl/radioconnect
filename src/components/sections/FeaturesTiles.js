@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'O que é Branding Music?',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'A diferentes formas de conquistar o cliente, diferentes estratégias de marketing, todas tem o foco em fortalecer a sua marca e promover o produto ou serviço ofertado. Branding Music é a estratégia sensorial de marketing que busca conquistar o cliente através da música.'
   };
 
   return (
@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Criando Experiências
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Com a diversidade de produtos ofertados, o consumidor tem se tornado cada vez mais exigente na hora da compra, e a experiência que o mesmo tem com a marca tem sido o diferencial para o cliente. Com a playlist musical certa, você é capaz de criar experencias incríveis em seus pontos de venda.
                     </p>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Reforço da Marca
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  A música é capaz de ativar memórias em nossos cérebros e atrelar as mesmas. Usar a música para que sua marca seja lembrada com mais facilidade é comprovadamente eficaz e aproxima de fato sua marca do cliente.
                     </p>
                 </div>
               </div>
@@ -115,80 +115,16 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Playlist de Especialistas
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Escolher a música certa não é ir de acordo com o gosto pessoal, mas sim compreender através de pesquisas qual a música que vai aproximar mais o seu cliente da sua marca. Através de Branding Music, as playlists musicais são capazes de fidelizar seu cliente.
                     </p>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
+            
 
           </div>
         </div>
