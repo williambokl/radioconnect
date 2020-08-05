@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import {Element } from 'react-scroll';
+
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -45,7 +47,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'O que é Branding Music?',
-    paragraph: 'A diferentes formas de conquistar o cliente, diferentes estratégias de marketing, todas tem o foco em fortalecer a sua marca e promover o produto ou serviço ofertado. Branding Music é a estratégia sensorial de marketing que busca conquistar o cliente através da música.'
+    paragraph: 'Há diferentes formas de conquistar o cliente, diferentes estratégias de marketing, todas têm o foco em fortalecer a sua marca e promover o produto ou serviço ofertado. Branding Music é a estratégia sensorial de marketing que busca conquistar o cliente através da música.'
   };
 
   return (
@@ -55,7 +57,9 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <Element name="test1" className="element" >
+            <SectionHeader data={sectionHeader} className="center-content" />
+          </Element>
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">

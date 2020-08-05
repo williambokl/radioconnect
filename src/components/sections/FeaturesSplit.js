@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { Element } from 'react-scroll';
+
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -50,7 +52,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
+    title: 'Como fazemos?',
     paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
   };
 
@@ -61,7 +63,9 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <Element name="test2" className="element" >
+           <SectionHeader data={sectionHeader} className="center-content" />
+          </Element>
           <div className={splitClasses}>
 
             <div className="split-item">

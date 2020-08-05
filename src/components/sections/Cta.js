@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
+import {Element } from 'react-scroll';
 
 const propTypes = {
   ...SectionProps.types,
@@ -51,9 +52,10 @@ const Cta = ({
         <div
           className={innerClasses}
         >
+          <Element name="test4" className="element" ></Element>
           <div className="cta-slogan">
             <h3 className="m-0">
-              For previewing layouts and visual?
+              Deseja saber mais?
               </h3>
           </div>
           <div className="cta-action">

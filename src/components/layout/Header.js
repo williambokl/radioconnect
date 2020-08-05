@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import { Link } from 'react-scroll';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -56,6 +57,10 @@ const Header = ({
     document.body.classList.remove('off-nav-is-active');
     nav.current && (nav.current.style.maxHeight = null);
     setIsactive(false);
+  }
+
+  const brandingMusic = () => {
+    console.log('foi pra brandign music');
   }
 
   const keyPress = (e) => {
@@ -115,22 +120,25 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>Home</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>O que fazemos</Link>
+                      <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500}>O que Branding Music</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Como Fazemos</Link>
+                      <Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}>Como Fazemos</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Contatos</Link>
+                      <Link activeClass="active" className="test3" to="test3" spy={true} smooth={true} duration={500}>Quem Somos</Link>
+                    </li>
+                    <li>
+                      <Link activeClass="active" className="test4" to="test4" spy={true} smooth={true} duration={500}>Contatos</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Painel</Link>
-                      </li>
+                      {/* <li>
+                        <Link to="painel" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Painel</Link>
+                      </li> */}
                     </ul>}
                 </div>
               </nav>
