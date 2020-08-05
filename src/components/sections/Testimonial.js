@@ -4,7 +4,6 @@ import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import {Element } from 'react-scroll';
 
-
 const propTypes = {
   ...SectionTilesProps.types
 }

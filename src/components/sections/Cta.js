@@ -4,6 +4,8 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
 import {Element } from 'react-scroll';
+import Telefone from '../../assets/images/telefone.svg';
+import Email from '../../assets/images/email.svg';
 
 const propTypes = {
   ...SectionProps.types,
@@ -56,14 +58,26 @@ const Cta = ({
           <div className="cta-slogan">
             <h3 className="m-0">
               Deseja saber mais?
-              </h3>
+            </h3>
+            <p></p>
+            <p>
+              Entre em contato conosco:
+            </p>
+              <p>
+                <img src={Telefone} alt='icone de telefone'/> (51) 3024.6393
+              </p>
+              <div><p>
+              <img src={Email} alt='icone de telefone'/> patricia@klaudio.com.br
+              </p>
+              </div>
           </div>
           <div className="cta-action">
-            <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
+
+            {/* <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
               <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
               </svg>
-            </Input>
+            </Input> */}
           </div>
         </div>
       </div>

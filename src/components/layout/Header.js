@@ -117,7 +117,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Home</Link>
+                      <Link  activeClass="active" className="test" to="test" spy={true} smooth={true} duration={500}>Home</Link>
                     </li>
                     <li>
                       <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500}>O que Branding Music</Link>

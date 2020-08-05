@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const FooterNav = ({
   className,
@@ -19,16 +19,13 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <Link activeClass="active" className="test" to="test" spy={true} smooth={true} duration={500}>Home</Link>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+        <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500}>Branding Music</Link>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="#0">Support</Link>
+        <Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}>Como fazemos</Link>
         </li>
       </ul>
     </nav>
